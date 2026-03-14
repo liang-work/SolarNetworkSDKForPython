@@ -25,12 +25,12 @@ def read_requirements():
 setup(
     name="solar-network-sdk",
     version="1.0.0",
-    author="nanci",
+    author="liang-work",
     author_email="admin@thsl.dpdns.org",
     description="A Python SDK for interacting with the Solar Network API(Not official)",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/solarnetwork/python-sdk",
+    url="https://github.com/liang-work/SolarNetworkSDKForPython",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -65,7 +65,7 @@ setup(
     zip_safe=False,
     keywords="solar network api sdk authentication",
     project_urls={
-        "Bug Reports": "https://github.com/solarnetwork/python-sdk/issues",
-        "Source": "https://github.com/solarnetwork/python-sdk",
+        "Bug Reports": "https://github.com/liang-work/SolarNetworkSDKForPython/issues",
+        "Source": "https://github.com/liang-work/SolarNetworkSDKForPython",
     },
 )
