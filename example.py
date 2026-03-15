@@ -258,7 +258,7 @@ if __name__ == "__main__":
     main()
 '''
     
-    with open("SN_sdk_py/simple_example.py", "w", encoding="utf-8") as f:
+    with open("simple_example.py", "w", encoding="utf-8") as f:
         f.write(simple_code)
     
     print("✓ 简单示例文件创建成功: simple_example.py")

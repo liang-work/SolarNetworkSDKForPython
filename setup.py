@@ -24,7 +24,7 @@ def read_requirements():
 
 setup(
     name="solar-network-sdk",
-    version="1.0.0",
+    version="1.0.1",
     author="liang-work",
     author_email="admin@thsl.dpdns.org",
     description="A Python SDK for interacting with the Solar Network API(Not official)",

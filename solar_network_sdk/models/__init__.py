@@ -53,7 +53,7 @@ from .posts import (
     Post, Publisher, PublisherStats, PublisherSubscription, ReactInfo,
     PostEmbedView, PostEmbedViewRenderer, PostAward, PostReaction,
     PostFeaturedRecord, PostWithStats, PollWithStats, Poll, PollQuestion,
-    PollOption, PollQuestionType, PollAnswer, PostTag, CategorySubscription,
+    PollOption, SnPollQuestionType, PollAnswer, PostTag, CategorySubscription,
     PostCategory, ScrappedLink, Heatmap, HeatmapItem,
 )
 
@@ -105,7 +105,7 @@ __all__ = [
     'Post', 'Publisher', 'PublisherStats', 'PublisherSubscription',
     'ReactInfo', 'PostEmbedView', 'PostEmbedViewRenderer', 'PostAward',
     'PostReaction', 'PostFeaturedRecord', 'PostWithStats', 'PollWithStats',
-    'Poll', 'PollQuestion', 'PollOption', 'PollQuestionType', 'PollAnswer',
+    'Poll', 'PollQuestion', 'PollOption', 'SnPollQuestionType', 'PollAnswer',
     'PostTag', 'CategorySubscription', 'PostCategory', 'ScrappedLink',
     'Heatmap', 'HeatmapItem',
     

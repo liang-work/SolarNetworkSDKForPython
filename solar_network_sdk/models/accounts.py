@@ -11,6 +11,12 @@ from datetime import datetime
 from typing import List, Optional, Dict, Any
 from enum import Enum
 
+# Import missing types
+from .wallets import WalletSubscriptionRef
+from .activity import PresenceActivity
+from .drive import CloudFile
+from .auth import AuthSession
+
 
 class AccountStatusType(Enum):
     """Account status types."""
@@ -214,10 +220,10 @@ class Account:
     name: str
     nick: str
     language: str
+    profile: AccountProfile
     region: str = ""
     is_superuser: bool = False
     automated_id: Optional[str] = None
-    profile: AccountProfile
     perk_subscription: Optional[WalletSubscriptionRef] = None
     badges: List[AccountBadge] = field(default_factory=list)
     contacts: List[ContactMethod] = field(default_factory=list)

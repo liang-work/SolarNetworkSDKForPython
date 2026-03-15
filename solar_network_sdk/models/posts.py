@@ -79,7 +79,7 @@ class PostFeaturedRecord:
 @dataclass
 class PostWithStats:
     """Post with statistics."""
-    post: Post = field(default_factory=Post)
+    post: Post = field(default_factory=lambda: Post())
     user_answer: Optional[PollAnswer] = None
     stats: Dict[str, Any] = field(default_factory=dict)
 
@@ -87,7 +87,7 @@ class PostWithStats:
 @dataclass
 class PollWithStats:
     """Poll with statistics."""
-    poll: Poll = field(default_factory=Poll)
+    poll: Poll = field(default_factory=lambda: Poll())
     user_answer: Optional[PollAnswer] = None
     stats: Dict[str, Any] = field(default_factory=dict)
 
@@ -241,7 +241,7 @@ class PublisherSubscription:
     """Publisher subscription information."""
     account_id: str = ""
     publisher_id: str = ""
-    publisher: Publisher = field(default_factory=Publisher)
+    publisher: Publisher = field(default_factory=lambda: Publisher())
 
 
 @dataclass

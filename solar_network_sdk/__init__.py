@@ -42,7 +42,7 @@ from .models import (
     Post, Publisher, PublisherStats, PublisherSubscription, ReactInfo,
     PostEmbedView, PostEmbedViewRenderer, PostAward, PostReaction,
     PostFeaturedRecord, PostWithStats, PollWithStats, Poll, PollQuestion,
-    PollOption, PollQuestionType, PollAnswer, PostTag, CategorySubscription,
+    PollOption, SnPollQuestionType, PollAnswer, PostTag, CategorySubscription,
     PostCategory, ScrappedLink, Heatmap, HeatmapItem,
     
     # Realm models
@@ -54,8 +54,8 @@ from .models import (
     WalletFundRecipient, LotteryTicket, LotteryRecord,
 )
 
-__version__ = "1.0.0"
-__author__ = "Solar Network"
+__version__ = "1.0.1"
+__author__ = "liang-work"
 __license__ = "MIT"
 
 __all__ = [
@@ -98,7 +98,7 @@ __all__ = [
     'Post', 'Publisher', 'PublisherStats', 'PublisherSubscription',
     'ReactInfo', 'PostEmbedView', 'PostEmbedViewRenderer', 'PostAward',
     'PostReaction', 'PostFeaturedRecord', 'PostWithStats', 'PollWithStats',
-    'Poll', 'PollQuestion', 'PollOption', 'PollQuestionType', 'PollAnswer',
+    'Poll', 'PollQuestion', 'PollOption', 'SnPollQuestionType', 'PollAnswer',
     'PostTag', 'CategorySubscription', 'PostCategory', 'ScrappedLink',
     'Heatmap', 'HeatmapItem',
     
